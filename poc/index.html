@@ -185,7 +185,7 @@
                     let i = 0;
                     while (i < rectangles.length && sharedEdge === null) {
                         if (i !== index) {
-                            edge = rectangle
+                            let edge = rectangle
                                 .filter((edge1, border) => {
                                     const edge2 =
                                         rectangles[i][(border + 2) % 4];
